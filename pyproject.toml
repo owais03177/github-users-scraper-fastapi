@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "github-scraper-fastapi"
+version = "0.1.0"
+description = "Intern Assignment - GitHub Users Scraper + FastAPI CRUD"
+authors = ["Owais shahzad"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+sqlalchemy = "^2.0.36"
+pydantic = "^2.10.0"
+python-dotenv = "^1.0.1"
+requests = "^2.32.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
